@@ -1,7 +1,7 @@
 {
-  "name": "Greentech",
+  "name": "ieanlptest",
   "version": "0.0.1",
-  "homepage": "https://mkmdivy.github.io/greentech",
+  "homepage": "https://mkmdivy.github.io/ieanlptest",
   "dependencies": {
     "@appbaseio/reactivesearch": "^3.23.1",
     "@material-ui/core": "^4.12.3",
