@@ -68,7 +68,7 @@ return (
 <div class={classes.main}>
   <div class={classes.header}>
     <div class={classes.title}>{"IEA NLP TEST"}</div>
-    <div class={classes.maintext}>7613 tweets were used for training the model. BERT model in tensorflow was used for training.<br/>Please type any text and then it will show how close it is that describing real disaster. And click the submit the text button.
+    <div class={classes.maintext}>7613 tweets were used for training the BERT model.<br/>Please type any text and then it will show how close it is that describing real disaster. And click the submit the text button.
     </div>    
   </div>
     <div class={classes.box}>
