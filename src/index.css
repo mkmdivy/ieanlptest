@@ -1,0 +1,203 @@
+body {
+  background-color: #181818;
+}
+
+.MuiBadge-colorPrimary {
+  background-color:#5ACEC9
+  /* color:#5ACEC9 */
+}
+
+.mapboxgl-popup-content {
+ font: 600 19.3333px Arial;
+ background-color: rgb(43,43,43,.8);
+ line-height: 1em;
+}
+
+.mapboxgl-popup-content small{
+ font: 400 11.3333px Arial;
+ color: #e8ae40;
+}
+
+.mapboxgl-popup-content span{
+ font: 400 11.3333px Arial;
+ color: white;
+}
+
+.mapboxgl-popup-content bold{
+ font: 600 12.3333px Arial;
+ color: white;
+}
+
+.mapboxgl-popup-content strong{
+ font: 600 14.3333px Arial;
+ color: white;
+}
+
+.mapboxgl-popup-content little{
+ font: 400 11.3333px Arial;
+}
+
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+ border-top-color: rgb(43,43,43,.8);
+ border-bottom:none;
+ align-self: center;
+}
+
+
+
+.VariableInfoWrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.VariableInfoWrapper span{
+    visibility: hidden;
+    width: 800px;
+    background-color: rgb(43,43,43,.95);
+    color: #fff;
+    padding: 9px 15px;
+    position: absolute;
+    z-index: 5;
+    font: 400 16.3333px Arial;
+    left: 50%;
+    bottom: 50%;
+    margin-left: -800px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.FB span{
+    visibility: hidden;
+    width: 100%;
+    background-color: rgb(43,43,43,.95);
+    color: #fff;
+    position: absolute;
+    z-index: 5;
+    font: 400 16.3333px Arial;
+    margin-left: -50px;
+    margin-top: 30px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+.VariableInfoWrapper span strong {
+font: 600 19px Arial;
+}
+
+.VariableInfoWrapper span color {
+color: #e8ae40;
+}
+
+.VariableInfoWrapper span color bold {
+font-weight: 600;
+}
+
+.VariableInfoWrapper:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+
+.FB:hover span {
+    visibility: visible;
+    opacity: 1;
+    color: #e8ae40;
+}
+
+
+
+.VariableInfoWrapper:hover .material-icons.md-dark {
+  color:grey;
+}
+
+.VariableInfoWrapper .material-icons.md-dark {
+  color:#fff;
+}
+
+.FB:hover .material-icons.md-dark {
+  color:grey;
+}
+
+.FB .material-icons.md-dark {
+  color:#fff;
+}
+
+
+.FB {
+  display:inline-block;
+}
+
+
+@media screen and (max-width: 850px) {
+        .VariableInfoWrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        .VariableInfoWrapper span{
+            visibility: hidden;
+            height:250px;
+            width:340px;
+            background-color: rgb(43,43,43,.95);
+            color: #fff;
+            padding: 9px 15px ;
+            position: absolute;
+            z-index: 5;
+            font: 400 8.3333px Arial;
+            margin-left: -240px;
+            margin-top: -500px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .VariableInfoWrapper span strong {
+        font: 600 10px Arial;
+        }
+
+        .VariableInfoWrapper span color {
+        color: #e8ae40;
+        }
+
+        .VariableInfoWrapper span color bold {
+        font-weight: 600;
+        }
+
+        .VariableInfoWrapper:hover span {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .VariableInfoWrapper:hover .material-icons.md-dark {
+          font-size:13px;
+          color:grey;
+        }
+
+        .VariableInfoWrapper .material-icons.md-dark {
+          font-size:13px;
+          color:#fff;
+        }
+
+        .FB:hover .material-icons.md-dark {
+          font-size:13px;
+          color:grey;
+        }
+
+        .FB .material-icons.md-dark {
+          font-size:13px;
+          color:#fff;
+        }
+
+        .FB:hover span {
+            position:absolute;
+            visibility: visible;
+            opacity: 1;
+            color: #e8ae40;
+            font: 400 10px Arial;
+            padding: 9px 15px ;
+            width:200px;
+            margin-left: -140px;
+        }
+
+}
